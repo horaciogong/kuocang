@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Starter Page - Yummy Bootstrap Template</title>
+  <title>Index - Yummy Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,53 +27,97 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Yummy
-  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
-<body class="starter-page-page">
+<body class="index-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">KUOCANG</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
+      <nav class="navmenu">
         
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
 
 
     </div>
   </header>
 
   <main class="main">
+   
 
-    <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
+   
+
+    <!-- Chefs Section -->
+    <section class="chefs section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Restaurantes</h2>
+        <p><span>Nossos</span> <span class="description-title">Restaurantes<br></span></p>
+      </div><!-- End Section Title -->
+
       <div class="container">
-        <h1>Escolha o Restaurante</h1>
-        <div class="d-grid gap-2 col-6 mx-auto">
-  <a class="btn btn-primary" type="button" href="kuocang.html">KUOCANG</a>
-  <a class="btn btn-primary" type="button" href="ramenkc.html">RAMENKC</a>
-</div>
-       
+
+        <div class="row gy-4">
+
+        <div class="col-lg-4 mx-auto align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+             <div class="member-img">
+                <img src="assets/img/kuocang.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://www.facebook.com/kuocang/" target="blank_"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/kuo_cang/" target="blank_"><i class="bi bi-instagram"></i></a>                       
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Restaurante KUOCANG 括苍</h4>
+                <span>Restaurante Chinês</span>
+                <p>Comida Tradiciolnal Chinêsa, desde 1998.</p>
+                <p><a href="index.html" type="button" class="btn btn-danger">Visitar</a></p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+          <div class="col-lg-4 mx-auto align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <a href=""><img src="assets/img/menu/ramen_gambas.png" class="img-fluid" alt=""></a>
+                <div class="social">
+                 <a href="https://www.facebook.com/kuocang/" target="blank_"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/kuo_cang/" target="blank_"><i class="bi bi-instagram"></i></a> 
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>KC RAMEN</h4>
+                <span>RAMEN</span>
+                <p>RAMEN</p>
+                <p><a href="ramenkc.html" type="button" class="btn btn-danger">Visitar</a></p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+
+        </div>
+
       </div>
-    </div><!-- End Page Title -->
+
+    </section><!-- /Chefs Section -->
+
+   
+
+    
 
 
   </main>
 
-  
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
